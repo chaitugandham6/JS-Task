@@ -118,11 +118,11 @@ console.log("The output is 10 because the do while loop executes the block of co
 // 🟠 For...of
 // Your notes use for...of with strings and arrays.
 // Task 10 — String Characters
-// let name = "javascript";
+// let Namee = "javascript";
 // Print every character using for...of.
-let name = "javascript";
+let Namee = "javascript";
 
-for (let character of name) {
+for (let character of Namee) {
     console.log(character);
 }
 
@@ -135,8 +135,8 @@ for (let fruit of fruits) {
     console.log(fruit);
 }
 
-// Task 12 — Student Names
-// Create an array of 5 student names.
+// Task 12 — Student Namees
+// Create an array of 5 student Namees.
 // Use for...of to print:
 // Student: Arun
 // Student: Priya
@@ -152,18 +152,18 @@ for (let student of students) {
 // Task 13 — Employee Object
 // Create:
 // let employee = {
-//     name: "Arun",
+//     Namee: "Arun",
 //     age: 25,
 //     role: "Developer",
 //     city: "Chennai"
 // };
 // Use for...in to print:
-// name Arun
+// Namee Arun
 // age 25
 // role Developer
 // city Chennai
 let employee = {
-    name: "Arun",
+    Namee: "Arun",
     age: 25,
     role: "Developer",
     city: "Chennai"
@@ -175,14 +175,14 @@ for (let key in employee) {
 
 // Task 14 — Product Object
 // Create:
-// productName
+// productNamee
 // price
 // brand
 // category
 // stock
 // Use for...in to print every key and value.
 let product = {
-    productName: "Laptop",
+    productNamee: "Laptop",
     price: 50000,
     brand: "Dell",
     category: "Electronics",
@@ -209,7 +209,7 @@ welcome();
 
 // Task 16 — Function With Parameter
 // Create:
-// function greet(name) {
+// function greet(Namee) {
 //     // code
 // }
 // Call:
@@ -220,8 +220,8 @@ welcome();
 // Hello Naveen
 // Hello Arun
 // Hello Priya
-function greet(name) {
-    console.log("Hello " + name);
+function greet(Namee) {
+    console.log("Hello " + Namee);
 }
 
 greet("Naveen");
@@ -230,12 +230,12 @@ greet("Priya");
 
 // Task 17 — Multiple Parameters
 // Create a function:
-// student(name, age, department)
+// student(Namee, age, department)
 // Print all three values.
 // Call it with 3 different students.
 // Your syllabus specifically covers parameters and arguments.
-function student(name, age, department) {
-    console.log("Name:", name);
+function student(Namee, age, department) {
+    console.log("Namee:", Namee);
     console.log("Age:", age);
     console.log("Department:", department);
 }
@@ -298,16 +298,16 @@ console.log(total);
 // 🟣 Default Parameter
 // Task 21
 // Create:
-// function employee(name, role = "Developer") {
-//     // print name and role
+// function employee(Namee, role = "Developer") {
+//     // print Namee and role
 // }
 // Call:
 // employee("Arun");
 // employee("Priya", "Designer");
 // Find the output.
 // This follows the default-parameter concept in your notes.
-function createEmployee(name, role = "Developer") {
-    console.log("Name:", name);
+function createEmployee(Namee, role = "Developer") {
+    console.log("Namee:", Namee);
     console.log("Role:", role);
 }
 
@@ -315,8 +315,8 @@ createEmployee("Arun");
 createEmployee("Priya", "Designer");
 
 // 🔥 Function Types
-// Task 22 — Named Function
-// Create a named function:
+// Task 22 — Nameed Function
+// Create a Nameed function:
 // function square(number) {
 //     return number * number;
 // }
@@ -441,7 +441,7 @@ console.log("const: Has block scope and is hoisted but not initialized. It must 
 })("Laptop", 20);
 
 // Your notes demonstrate an IIFE using product and discount parameters.
-console.log("The IIFE is a function that is defined and immediately invoked. It is used to create a new scope and avoid polluting the global namespace. In this example, the first IIFE prints a welcome message, while the second IIFE accepts parameters for product and discount and prints a discount message.");
+console.log("The IIFE is a function that is defined and immediately invoked. It is used to create a new scope and avoid polluting the global Nameespace. In this example, the first IIFE prints a welcome message, while the second IIFE accepts parameters for product and discount and prints a discount message.");
 // 🔵 Callback / Higher-Order Function
 // Task 30
 // Create:
@@ -496,7 +496,7 @@ for (let value of result4) {
 // Create a simple Employee Management System using only the concepts you've learned.
 // Employee data
 // Create an array containing employee objects:
-// Name
+// Namee
 // Age
 // Department
 // Role
@@ -504,14 +504,14 @@ for (let value of result4) {
 // Example:
 // let employees = [
 //     {
-//         name: "Arun",
+//         Namee: "Arun",
 //         age: 25,
 //         department: "IT",
 //         role: "Developer",
 //         salary: 40000
 //     },
 //     {
-//         name: "Priya",
+//         Namee: "Priya",
 //         age: 24,
 //         department: "HR",
 //         role: "HR Executive",
@@ -522,14 +522,14 @@ for (let value of result4) {
 
 let employees = [
     {
-        name: "Arun",
+        Namee: "Arun",
         age: 25,
         department: "IT",
         role: "Developer",
         salary: 40000
     },
     {
-        name: "Priya",
+        Namee: "Priya",
         age: 24,
         department: "HR",
         role: "HR Executive",
@@ -563,9 +563,9 @@ for (let employee of employees) {
 // Create a function to display employee information.
 // 4. Function parameters
 // Pass employee information to the function.
-function displayEmployee(name, age, department, role, salary) {
+function displayEmployee(Namee, age, department, role, salary) {
 
-    console.log("Name:", name);
+    console.log("Namee:", Namee);
     console.log("Age:", age);
     console.log("Department:", department);
     console.log("Role:", role);
@@ -577,7 +577,7 @@ console.log("DISPLAY EMPLOYEE");
 for (let employee of employees) {
 
     displayEmployee(
-        employee.name,
+        employee.Namee,
         employee.age,
         employee.department,
         employee.role,
@@ -602,9 +602,9 @@ for (let employee of employees) {
     let salary = getSalary(employee);
 
     if (salary >= 40000) {
-        console.log(employee.name + " has salary >= 40000");
+        console.log(employee.Namee + " has salary >= 40000");
     } else {
-        console.log(employee.name + " has salary < 40000");
+        console.log(employee.Namee + " has salary < 40000");
     }
 }
 // 7. Arrow function
@@ -622,7 +622,7 @@ for (let employee of employees) {
 
     let yearly = yearlySalary(employee.salary);
 
-    console.log(employee.name + ":", yearly);
+    console.log(employee.Namee + ":", yearly);
 }
 
 // 8. Generator
